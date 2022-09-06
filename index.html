@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+  
+</head>
+<body>
+    <div class="article article__container">
+        <div class="article__content">
+            <picture>
+                <source srcset="build/img/drawers.avif" type="image/avif">
+                <source srcset="build/img/drawers.webp" type="image/webp">
+                <img loading="lazy" src="build/img/drawers.jpg" width="500" height="300" alt="drawers image" class="article__image">
+            </picture>
+
+            <div class="article__info">
+                <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+                <p class="article__text">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+
+                <div class="article__autor-container">
+                    <div class="article__autor">
+                        <picture>
+                            <source srcset="build/img/avatar-michelle.avif" type="image/avif">
+                            <source srcset="build/img/avatar-michelle.webp" type="image/webp">
+                            <img loading="lazy" src="build/img/avatar-michelle.jpg" width="500" height="300" alt="autor image" class="article__autor-image">
+                        </picture>
+
+                        <div class="article__autor-info">
+                            <h2>Michelle Appleton</h2>
+                            <p class="article__date">28 Jun 2020</p>
+                        </div>
+                    </div>
+
+                    <button class="article__share-btn"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg></button>
+                </div>
+
+                <div class="share">
+                    <div class="share__contain">
+                        <p class="share__text">Share</p>
+                        <a href="#" class="share__icon">
+                            <img src="build/img/icon-facebook.svg" alt="facebook icon">
+                        </a>
+                        <a href="#" class="share__icon">
+                            <img src="build/img/icon-twitter.svg" alt="twitter icon" class="share__icon">
+                        </a>
+                        <a href="#" class="share__icon">
+                            <img src="build/img/icon-pinterest.svg" alt="pinterest icon" class="share__icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>
